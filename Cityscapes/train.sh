@@ -1,0 +1,1 @@
+python main.py --gpu_id 0,1,2,3 --lr 0.01 --crop_size 512 --run_name [your_run_name] --ckpt [pre_trained_pth_file] --total_itrs 50000 --batch_size 32 --output_stride 16 --data_root ./datasets/data/cityscapes
